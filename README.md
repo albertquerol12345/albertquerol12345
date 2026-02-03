@@ -1,83 +1,60 @@
-<h1 align="center">Hi, I'm Albert Querol Beltrán 👋</h1>
+# Hi, I'm Albert Querol Beltrán 👋
 
-<p align="center">
-  <b>Junior Python Automation</b> | <b>Ops + Accounting</b> | <b>Data Pipelines</b>
-</p>
+**Junior Python Developer | Automation | Data Pipelines**
 
-<p align="center">
-  <a href="https://albertquerol12345.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio">
-  </a>
-  <a href="https://linkedin.com/in/albertquerolbeltran">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="mailto:albert.querol.beltran@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</p>
+I build technical demonstrations of production-grade patterns. 3+ years in QSR operations + SAP FI certification give me context for real-world problems.
+
+> **For recruiters:** These are **architectural demonstrations**, not commercial products. They show how I think about code structure, edge cases, and production patterns.
 
 ---
 
-## 🎯 About Me
-
-I bridge **operations** and **code**. 
-
-3+ years managing QSR shifts at McDonald's taught me what breaks in real processes. SAP FI certification gave me the accounting foundation. Now I build Python tools that reduce administrative overhead and prevent errors at scale.
-
-> *"Not a generic programmer — an operational problem-solver who codes."*
-
----
-
-## 🚀 Featured Projects
+## 🚀 Technical Demonstrations
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
 ### 🧾 [Certiva](https://github.com/albertquerol12345/certiva)
-**Invoice OCR Pipeline**
+**Document Processing Pipeline**
 
-Local pipeline: PDF → OCR → Rules → CSV (a3innuva-ready)
+Demonstrates: Resilient OCR pipelines, HITL review queues, circuit breakers, audit trails
 
-- ✅ Human-in-the-loop review queue
-- ✅ SQLite audit trail & confidence scoring  
-- ✅ Circuit breakers & retry logic
-- 📊 **Demo:** 34 invoices processed in ~2 min
+- **Scale:** 34 demo invoices processed end-to-end
+- **Patterns:** Pipeline architecture, multi-tenancy, observability
+- **Stack:** Python, FastAPI, SQLite, Azure OCR
 
-[![Certiva](https://img.shields.io/badge/Python-3.11+-blue?logo=python)](https://github.com/albertquerol12345/certiva)
-[![Tests](https://img.shields.io/badge/tests-pytest-green)](https://github.com/albertquerol12345/certiva)
+[![View](https://img.shields.io/badge/View-Repo-blue)](https://github.com/albertquerol12345/certiva)
+[![Demo](https://img.shields.io/badge/Run-Demo-green)](https://github.com/albertquerol12345/certiva/blob/main/DEMO.md)
 
 </td>
 <td width="33%" valign="top">
 
 ### 🎤 [Ohana Voice](https://github.com/albertquerol12345/ohana-voice)
-**Offline Voice Ordering**
+**Offline Voice Recognition**
 
-Voice commands for noisy QSR kitchens
+Demonstrates: Real-time audio processing, VAD, offline ASR, HITL validation
 
-- ✅ Local ASR (Vosk/Kaldi) — no cloud needed
-- ✅ Human validation before sending
-- ✅ Browser demo mode (no install)
-- 📊 **Demo:** 19-item catalog, hands-free
+- **Scale:** 19-item catalog, browser demo mode
+- **Patterns:** Event-driven architecture, WebSocket streaming
+- **Stack:** Python, FastAPI, Vosk/Kaldi, Vanilla JS
 
-[![Ohana](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://github.com/albertquerol12345/ohana-voice)
-[![Demo](https://img.shields.io/badge/demo-ready-orange)](https://github.com/albertquerol12345/ohana-voice/blob/main/DEMO.md)
+[![View](https://img.shields.io/badge/View-Repo-blue)](https://github.com/albertquerol12345/ohana-voice)
+[![Demo](https://img.shields.io/badge/Run-Demo-green)](https://github.com/albertquerol12345/ohana-voice/blob/main/DEMO.md)
 
 </td>
 <td width="33%" valign="top">
 
 ### 🖼️ [Vision Pipeline](https://github.com/albertquerol12345/vision-descr-pipeline)
-**Image → Description → CSV**
+**Batch API Processing**
 
-AI-powered catalog enrichment
+Demonstrates: Resumable batch jobs, checkpointing, API cost optimization
 
-- ✅ Resumable processing (save every 5 rows)
-- ✅ Cost-optimized (80-100 words/image)
-- ✅ Clean CSV output with metadata
-- 📊 **Cost:** ~$0.03 for 400 images
+- **Scale:** 400 images for ~$0.03
+- **Patterns:** Pipeline pattern, idempotency, error resilience
+- **Stack:** Python, Pandas, OpenAI Vision
 
-[![Vision](https://img.shields.io/badge/OpenAI-Vision-green?logo=openai)](https://github.com/albertquerol12345/vision-descr-pipeline)
-[![Resumable](https://img.shields.io/badge/feature-resumable-orange)](https://github.com/albertquerol12345/vision-descr-pipeline)
+[![View](https://img.shields.io/badge/View-Repo-blue)](https://github.com/albertquerol12345/vision-descr-pipeline)
+[![Demo](https://img.shields.io/badge/Run-Demo-green)](https://github.com/albertquerol12345/vision-descr-pipeline/blob/main/DEMO.md)
 
 </td>
 </tr>
@@ -85,44 +62,64 @@ AI-powered catalog enrichment
 
 ---
 
-## 🛠️ Tech Stack
+## 🎯 What These Projects Actually Are
 
-**Core:**
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+**They are not:**
+- ❌ Commercial SaaS products
+- ❌ VC-funded startups
+- ❌ Finished applications ready for market
 
-**Accounting & Ops:**
-SAP FI · a3innuva · Invoice workflows · CSV ingestion · Data validation
+**They are:**
+- ✅ **Technical demonstrations** of architectural patterns
+- ✅ **Sandbox implementations** of production-grade concepts
+- ✅ **Proofs-of-concept** showing how I'd approach real systems
 
-**Cloud & APIs:**
-Azure Form Recognizer · OpenAI Vision · REST APIs
+### What I Demonstrate
 
-**Practices:**
-Git · pytest · CI/CD basics · HITL (human-in-the-loop) · Audit trails
+| Skill | How It's Shown |
+|-------|----------------|
+| **Architecture** | Clean separation of concerns, pipeline patterns, multi-tenancy |
+| **Resilience** | Circuit breakers, retry logic, checkpointing, graceful degradation |
+| **Code Quality** | Type hints, tests (70%+ coverage), documentation, linting |
+| **Edge Cases** | OCR failures, API rate limits, data validation, race conditions |
+| **Ops Thinking** | Observability, audit trails, configuration management |
+
+---
+
+## 🛠️ Technical Stack
+
+**Languages:** Python, SQL  
+**Frameworks:** FastAPI, Pandas, Pydantic  
+**Data:** SQLite, CSV processing, data validation  
+**Infrastructure:** Docker, Git, basic CI/CD  
+**Patterns:** Pipeline, Repository, Circuit Breaker, HITL  
+**Domain:** Accounting workflows (SAP FI certified), QSR operations
 
 ---
 
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=albertquerol12345&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="160">
+  <img src="https://github-readme-stats.vercel.app/api?username=albertquerol12345&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="160">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=albertquerol12345&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="160">
 </p>
 
 ---
 
-## 💡 Quick Facts
+## 💼 What I'm Looking For
 
-- 🔧 **All projects are demo-scale** — fully documented, runnable in < 5 minutes
-- 🎯 **Niche focus:** Automation for accounting & operations (not generic web dev)
-- 📍 **Based in:** Barcelona, Spain
-- 🌐 **Languages:** Spanish (native), Catalan (native), English (professional)
+**Roles:** Junior Python Developer, Automation Engineer, Data Pipeline Developer  
+**Industries:** Fintech, Accounting Tech, Operations/Logistics  
+**Location:** Barcelona / Remote (Spain)  
+**Value I bring:**
+- Operational context (3 years managing QSR shifts)
+- Accounting domain knowledge (SAP FI certified)
+- Focus on reliability and edge cases
+- Willingness to learn and dive deep
 
 ---
 
-## 📫 Get In Touch
+## 📫 Contact
 
 - **Portfolio:** [albertquerol12345.github.io](https://albertquerol12345.github.io)
 - **LinkedIn:** [linkedin.com/in/albertquerolbeltran](https://linkedin.com/in/albertquerolbeltran)
@@ -130,6 +127,14 @@ Git · pytest · CI/CD basics · HITL (human-in-the-loop) · Audit trails
 
 ---
 
-<p align="center">
-  <i>Looking for junior automation, ops tech, or accounting automation roles.</i>
-</p>
+## 🎓 Background
+
+- **Operations:** 3+ years as Shift Manager at McDonald's (team management, process optimization)
+- **Education:** Business Administration + SAP FI Certification
+- **Transition:** Self-taught Python, focused on automation and data pipelines
+
+I understand what breaks in real operations because I've lived it. Now I code solutions that account for those realities.
+
+---
+
+*Want to discuss the architecture of any project? Open an issue or email me.*
