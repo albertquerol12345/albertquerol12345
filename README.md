@@ -2,7 +2,7 @@
 
 **Junior Python Developer | Automation | Data Pipelines**
 
-I build technical demonstrations of production-grade patterns. 3+ years in QSR operations + SAP FI certification give me context for real-world problems.
+I build technical demonstrations of production-grade patterns. QSR operations experience (Oct 2023-Mar 2025) + SAP FI certification give me context for real-world problems.
 
 > **For recruiters:** These are **architectural demonstrations**, not commercial products. They show how I think about code structure, edge cases, and production patterns.
 
@@ -19,7 +19,7 @@ I build technical demonstrations of production-grade patterns. 3+ years in QSR o
 
 Demonstrates: Resilient OCR pipelines, HITL review queues, circuit breakers, audit trails
 
-- **Scale:** 34 demo invoices processed end-to-end
+- **Dataset:** 34 demo invoices (`tests/golden`)
 - **Patterns:** Pipeline architecture, multi-tenancy, observability
 - **Stack:** Python, FastAPI, SQLite, Azure OCR
 
@@ -36,7 +36,7 @@ Demonstrates: Real-time audio processing, VAD, offline ASR, HITL validation
 
 - **Scale:** 19-item catalog, browser demo mode
 - **Patterns:** Event-driven architecture, WebSocket streaming
-- **Stack:** Python, FastAPI, Vosk/Kaldi, Vanilla JS
+- **Stack:** Python, websockets, Vosk/Kaldi, Vanilla JS
 
 [![View](https://img.shields.io/badge/View-Repo-blue)](https://github.com/albertquerol12345/ohana-voice)
 [![Demo](https://img.shields.io/badge/Run-Demo-green)](https://github.com/albertquerol12345/ohana-voice/blob/main/DEMO.md)
@@ -47,9 +47,9 @@ Demonstrates: Real-time audio processing, VAD, offline ASR, HITL validation
 ### 🖼️ [Vision Pipeline](https://github.com/albertquerol12345/vision-descr-pipeline)
 **Batch API Processing**
 
-Demonstrates: Resumable batch jobs, checkpointing, API cost optimization
+Demonstrates: Resumable batch jobs, checkpointing, API cost estimation
 
-- **Scale:** 400 images for ~$0.03
+- **Demo:** 2 images included (pipeline designed to scale)
 - **Patterns:** Pipeline pattern, idempotency, error resilience
 - **Stack:** Python, Pandas, OpenAI Vision
 
@@ -80,7 +80,7 @@ Demonstrates: Resumable batch jobs, checkpointing, API cost optimization
 |-------|----------------|
 | **Architecture** | Clean separation of concerns, pipeline patterns, multi-tenancy |
 | **Resilience** | Circuit breakers, retry logic, checkpointing, graceful degradation |
-| **Code Quality** | Type hints, tests (70%+ coverage), documentation, linting |
+| **Code Quality** | Type hints, tests with pytest (Certiva), documentation, linting |
 | **Edge Cases** | OCR failures, API rate limits, data validation, race conditions |
 | **Ops Thinking** | Observability, audit trails, configuration management |
 
@@ -112,7 +112,7 @@ Demonstrates: Resumable batch jobs, checkpointing, API cost optimization
 **Industries:** Fintech, Accounting Tech, Operations/Logistics  
 **Location:** Barcelona / Remote (Spain)  
 **Value I bring:**
-- Operational context (3 years managing QSR shifts)
+- Operational context (QSR ops Oct 2023-Mar 2025; shift lead experience)
 - Accounting domain knowledge (SAP FI certified)
 - Focus on reliability and edge cases
 - Willingness to learn and dive deep
@@ -122,15 +122,15 @@ Demonstrates: Resumable batch jobs, checkpointing, API cost optimization
 ## 📫 Contact
 
 - **Portfolio:** [albertquerol12345.github.io](https://albertquerol12345.github.io)
-- **LinkedIn:** [linkedin.com/in/albertquerolbeltran](https://linkedin.com/in/albertquerolbeltran)
-- **Email:** albert.querol.beltran@gmail.com
+- **LinkedIn:** [linkedin.com/in/albert-querol](https://linkedin.com/in/albert-querol)
+- **Email:** albertquerol12345@gmail.com
 
 ---
 
 ## 🎓 Background
 
-- **Operations:** 3+ years as Shift Manager at McDonald's (team management, process optimization)
-- **Education:** Business Administration + SAP FI Certification
+- **Operations:** McDonald's - Crew Member (Oct 2023-Oct 2024), Shift Manager (Oct 2024-Mar 2025)
+- **Education:** B.A. Accounting (UMPI, 2025) + SAP FI Certification (2025)
 - **Transition:** Self-taught Python, focused on automation and data pipelines
 
 I understand what breaks in real operations because I've lived it. Now I code solutions that account for those realities.
